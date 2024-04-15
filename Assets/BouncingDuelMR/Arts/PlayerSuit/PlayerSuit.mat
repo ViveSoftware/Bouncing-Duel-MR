@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: PlayerSuit
+  m_Shader: {fileID: 4800000, guid: 627410fbe80bac347af6963421a8dc75, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords: []
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AO:
+        m_Texture: {fileID: 2800000, guid: 5feba03f3b4e45e439fabbdf3f0cf007, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Albedo:
+        m_Texture: {fileID: 2800000, guid: 221c00564781ffa4cab31a900b3c90f9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CM:
+        m_Texture: {fileID: 2800000, guid: a9c37ed1e37f69e44ac5c730cc9783ef, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 2800000, guid: e4ef03ab118046f4e9400d68c1140a42, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Specular:
+        m_Texture: {fileID: 2800000, guid: 9ae710838c932fe44879a91983969b89, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _Float0: 1.41
+    - _Opacity: 0.7
+    - _PPP: 0.52
+    - _Rim_Power: 0.16
+    - _Smoothness: 0.5
+    - __dirty: 0
+    m_Colors:
+    - _Color: {r: 0.1544589, g: 0.42460912, b: 0.8396226, a: 1}
+    - _Color0: {r: 0.0045046997, g: 0.17568327, b: 0.50903106, a: 0}
+    - _Rim_Color: {r: 0, g: 0.42132753, b: 0.7735849, a: 0}
+  m_BuildTextureStacks: []

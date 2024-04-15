@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CubePlane
+  m_Shader: {fileID: 4800000, guid: cec99e388ecfc374f8771ad773ee446d, type: 3}
+  m_ShaderKeywords: _ALPHABLEND_ON _EMISSION
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 2997
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: bf9b5dd5ace41d3479f70a41db2d3790, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Alpha: 1
+    - _BackGradientWidth: 0.1
+    - _BackPower: 1.5
+    - _BlendOp: 0
+    - _BumpScale: 1
+    - _CameraFadingEnabled: 0
+    - _CameraFarFadeDistance: 2
+    - _CameraNearFadeDistance: 1
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DepthDist1: 0
+    - _DepthDist2: 0.1
+    - _DepthDist3: 0.2
+    - _DepthDist4: 1
+    - _DepthLerpValue: 0
+    - _DetailNormalMapScale: 1
+    - _Dist1: 0
+    - _Dist2: 0.1
+    - _Dist3: 0.2
+    - _Dist4: 1
+    - _Dist5: 1
+    - _DistortionBlend: 0.5
+    - _DistortionEnabled: 0
+    - _DistortionStrength: 1
+    - _DistortionStrengthScaled: 0
+    - _DstBlend: 10
+    - _EmissionEnabled: 0
+    - _FlipbookMode: 0
+    - _FrontGradientWidth: 0.4
+    - _FrontPower: 2.5
+    - _GlossMapScale: 1
+    - _Glossiness: 0
+    - _GlossyReflections: 1
+    - _GradientPower: 1.5
+    - _GradientWidth: 0.1
+    - _LeftDist1: 0
+    - _LeftDist2: 0.1
+    - _LeftDist3: 0.2
+    - _LeftDist4: 1
+    - _LeftLerpValue: 0
+    - _LightingEnabled: 1
+    - _Metallic: 0
+    - _Mode: 2
+    - _OcclusionStrength: 1
+    - _OffsetFactor: 1
+    - _OffsetUnit: 1
+    - _Parallax: 0.02
+    - _RightDist1: 0
+    - _RightDist2: 0.1
+    - _RightDist3: 0.2
+    - _RightDist4: 1
+    - _RightLerpValue: 0
+    - _SmoothnessTextureChannel: 0
+    - _SoftParticlesEnabled: 0
+    - _SoftParticlesFarFadeDistance: 1
+    - _SoftParticlesNearFadeDistance: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 5
+    - _StencilComp: 8
+    - _StencilOpt: 2
+    - _StencilRef: 1
+    - _UVSec: 0
+    - _UseGradient: 1
+    - _ZWrite: 0
+    - __dirty: 1
+    m_Colors:
+    - _BackColor: {r: 1, g: 1, b: 1, a: 0}
+    - _BackColorBorder: {r: 1, g: 1, b: 1, a: 1}
+    - _BackColorCenter: {r: 1, g: 1, b: 1, a: 1}
+    - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
+    - _Center: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 0.5019608}
+    - _ColorKey1: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorKey2: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorKey3: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorKey4: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorKey5: {r: 1, g: 1, b: 1, a: 1}
+    - _DepthColorKey1: {r: 1, g: 1, b: 1, a: 1}
+    - _DepthColorKey2: {r: 1, g: 1, b: 1, a: 1}
+    - _DepthColorKey3: {r: 1, g: 1, b: 1, a: 1}
+    - _DepthColorKey4: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 0, g: 0.7019608, b: 0.8901961, a: 1}
+    - _FrontColorBorder: {r: 0.9843137, g: 0.827451, b: 0.3529412, a: 0.69803923}
+    - _FrontColorCenter: {r: 0.9843137, g: 0.827451, b: 0.3529412, a: 0}
+    - _GradientBorder: {r: 1, g: 1, b: 1, a: 1}
+    - _GradientCenter: {r: 1, g: 1, b: 1, a: 1}
+    - _LeftColorKey1: {r: 1, g: 1, b: 1, a: 1}
+    - _LeftColorKey2: {r: 1, g: 1, b: 1, a: 1}
+    - _LeftColorKey3: {r: 1, g: 1, b: 1, a: 1}
+    - _LeftColorKey4: {r: 1, g: 1, b: 1, a: 1}
+    - _RightColorKey1: {r: 1, g: 1, b: 1, a: 1}
+    - _RightColorKey2: {r: 1, g: 1, b: 1, a: 1}
+    - _RightColorKey3: {r: 1, g: 1, b: 1, a: 1}
+    - _RightColorKey4: {r: 1, g: 1, b: 1, a: 1}
+    - _Size: {r: 1, g: 1, b: 0, a: 0}
+    - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []

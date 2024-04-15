@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8708910716727345549
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8708910716727345550}
+  - component: {fileID: 8708910716727345554}
+  - component: {fileID: 8708910716727345555}
+  - component: {fileID: 8708910716727345552}
+  - component: {fileID: 8708910716727345553}
+  m_Layer: 0
+  m_Name: ScenePerception
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8708910716727345550
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8708910716727345549}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8708910716727345554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8708910716727345549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e816a61fd3adbe6489be98c39aac289f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scenePerceptionHelper: {fileID: 8708910716727345555}
+  sceneComponentManager: {fileID: 8708910716727345552}
+  scenePerceptionManager: {fileID: 8708910716727345553}
+  isUseScenePerception: 1
+  isPassthroughEnabled: 0
+  isLoadSceneComponentEnabled: 1
+  isLoadColliderMeshEnabled: 0
+  isLoadVisualMeshEnabled: 1
+--- !u!114 &8708910716727345555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8708910716727345549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3541dc53fa6797747b08408ae93b052d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scenePerceptionManager: {fileID: 8708910716727345553}
+  sceneStatusData: {fileID: 4900000, guid: ad8d89775fe808e4e84589a78e71bea4, type: 3}
+  IsUseSavedSceneData: 0
+--- !u!114 &8708910716727345552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8708910716727345549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d54300084e17dbd41a714fff07ee6128, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  componentPrefabMap:
+  - Label: 3
+    Prefab: {fileID: 1962616145685089368, guid: ba12c624affd8cc4288782b21cca9bcf, type: 3}
+  - Label: 6
+    Prefab: {fileID: 1962616145685089368, guid: 62158d0360820a44094cbaadcbb4c871, type: 3}
+  - Label: 7
+    Prefab: {fileID: 1354000864480763465, guid: e97a998d716acaf43a5a2eaaf30b365e, type: 3}
+  - Label: 4
+    Prefab: {fileID: 3569297777114657270, guid: 238d3cd6056985c45ab0f5c4225f224a, type: 3}
+  - Label: 5
+    Prefab: {fileID: 5544090164656935718, guid: 1e2e28c1a2d5a5840bab71d8bcbe8afa, type: 3}
+  - Label: 1
+    Prefab: {fileID: 8753412091563954256, guid: 2abec002ab94fe14cb78dd2e14163411, type: 3}
+  - Label: 0
+    Prefab: {fileID: 2039940765796777242, guid: 452972394772c6e4da11adc7a3744954, type: 3}
+  colliderMeshPrefab: {fileID: 3860669287551459119, guid: e094947afc34be848b4e84c11440b5cf, type: 3}
+  visualMeshPrefab: {fileID: 3860669287551459119, guid: 13452d9bc8d36fa44adf6187be74a83c, type: 3}
+--- !u!114 &8708910716727345553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8708910716727345549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cb8c014c624a074cbc4b7a27f1a9a87, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  trackingOrigin: {fileID: 0}
