@@ -42,8 +42,8 @@ This multiplayer game necessitates a dependable and steady network environment. 
 ![Game Flow](./images/Flow.png)
 ![Alignment Method](./images/Alignment.png)
 
-
-
+## License
+See [LICENSE.pdf](LICENSE.pdf) for more information.
 
 ## Contact Us
 Email:  [ViveSoftware@htc.com](mailto:ViveSoftware@htc.com)
