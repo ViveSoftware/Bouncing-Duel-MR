@@ -43,7 +43,7 @@ This multiplayer game necessitates a dependable and steady network environment. 
 ![Alignment Method](./images/Alignment.png)
 
 ## License
-See [LICENSE.pdf](LICENSE.pdf) for more information.
+See [LICENSE.pdf](license.pdf) for more information.
 
 ## Contact Us
 Email:  [ViveSoftware@htc.com](mailto:ViveSoftware@htc.com)
