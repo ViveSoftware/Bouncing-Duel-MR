@@ -9,7 +9,7 @@ Bounce, Shoot, Dodge and Defence. Let's start a duel!
 
 ## Requirements
  - Vive XR Elite (ROM Version 1.0.999.568 above)
- - Unity 2021.3.16f1 (Build-In RP)
+ - Unity 2021.3.16f1
  - VIVE Wave XR Plugin 5.5.0-r.10
  - VIVE Input Utility 1.18.3
 
