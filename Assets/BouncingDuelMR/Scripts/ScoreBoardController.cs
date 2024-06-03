@@ -292,6 +292,7 @@ namespace AnchorSharing
                 if (scorePlusMove_R != null && scorePlusMove_R.IsPlaying()) scorePlusMove_R.Kill();
 
                 scorePlusAni_R.transform.localPosition = new Vector3(0, -1, 0);
+                scorePlusAni_R.transform.localScale = Vector3.one;
                 scorePlusMove_R.Append(scorePlusAni_R.transform.DOLocalMoveY(-0.8f, 0.75f));
                 scorePlusAni_R.transform.LookAt(new Vector3(playerPos.x, scorePlusAni_R.transform.position.y, playerPos.z));
                 scorePlusAni_R.Play("ScorePlus", 0, 0f);
@@ -306,6 +307,7 @@ namespace AnchorSharing
                 if (scorePlusMove_B != null && scorePlusMove_B.IsPlaying()) scorePlusMove_B.Kill();
 
                 scorePlusAni_B.transform.localPosition = new Vector3(0, -1, 0);
+                scorePlusAni_B.transform.localScale = Vector3.one;
                 scorePlusMove_B.Append(scorePlusAni_B.transform.DOLocalMoveY(-0.8f, 0.75f));
                 scorePlusAni_B.transform.LookAt(new Vector3(playerPos.x, scorePlusAni_B.transform.position.y, playerPos.z));
                 scorePlusAni_B.Play("ScorePlus", 0, 0f);
