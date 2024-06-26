@@ -20,8 +20,8 @@ namespace AnchorSharing
     {
         [SerializeField] private ScenePerceptionManager scenePerceptionManager;
 
-        [Header("Scene data source")]
-        [SerializeField] private TextAsset sceneStatusData;
+        //[Header("Scene data source")]
+        //[SerializeField] private TextAsset sceneStatusData;
 
         [HideInInspector]
         public bool IsUseSavedSceneData;
@@ -30,7 +30,7 @@ namespace AnchorSharing
 
         private void Awake()
         {
-            sceneStatus = JsonUtility.FromJson<SceneStatus>(sceneStatusData.text);
+            //sceneStatus = JsonUtility.FromJson<SceneStatus>(sceneStatusData.text);
         }
 
         public bool IsSceneStarted { get; private set; } = false;

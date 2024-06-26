@@ -64,7 +64,7 @@ namespace AnchorSharing
 #else
             IsUseScenePerception = isUseScenePerception;
 #endif
-            scenePerceptionHelper.IsUseSavedSceneData = !IsUseScenePerception;
+            scenePerceptionHelper.IsUseSavedSceneData = false;
 
             //Show passthrough
             if (isPassthroughEnabled)
