@@ -26,6 +26,7 @@ Bounce, Shoot, Dodge and Defence. Let's start a duel!
 - Import Third-Party Plugins [DOTween](https://assetstore.unity.com/packages/tools/animation/dotween-hotween-v2-27676) and [PUN2](https://assetstore.unity.com/packages/tools/network/pun-2-free-119922) from **Unity Asset Store**
 - Apply a new [Photon](https://id.photonengine.com/zh-tw/account/signup?tabindex=5) account, and key-in your **AppID** into `Assets\Photon\PhotonUnityNetworking\Resources\PhotonServerSettings`
 -   Set `Build Settings > Platform` to Android
+-   Build APK and Install.
 
 ## Environment Requirements
 This MR experience will require a space for setting up spatial anchor and virtual objects. Here are some steps in **Vive XR Elite Launcher** and guidelines of how to judge a space qualifies for the game.
